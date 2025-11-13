@@ -20,6 +20,8 @@
                     <include name="testLogin"/>
                 </methods>
             </class>
+            <class name="testCases.TS_03_001_SearchTest">
+            </class>
             <class name="testCases.test">
                 <methods>
                     <include name="testA"/>
