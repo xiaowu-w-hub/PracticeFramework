@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="D:/code-practice/Guo/PracticeFramework/src/test">
+        <classes>
+            <class name="testCases.TS_01_001_RegisterSuccessTest">
+                <methods>
+                    <include name="testRegisterWithSubscribe"/>
+                    <include name="testRegisterWithoutSubscribe"/>
+                </methods>
+            </class>
+            <class name="testCases.TS_01_002_RegisterFailureDD">
+                <methods>
+                    <include name="testRegisterAccount"/>
+                    <include name="testEmailInvalidFormat"/>
+                </methods>
+            </class>
+            <class name="testCases.TS_02_001_LoginTestDD">
+                <methods>
+                    <include name="testLogin"/>
+                </methods>
+            </class>
+            <class name="testCases.test">
+                <methods>
+                    <include name="testA"/>
+                    <include name="testB"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
